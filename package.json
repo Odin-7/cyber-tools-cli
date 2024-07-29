@@ -1,0 +1,28 @@
+{
+  "name": "cyber-tools-cli",
+  "version": "1.0.0",
+  "description": "这是一个使用 Node.js 编写的命令行工具，用于从模板初始化新项目。",
+  "author": "Cyber Tan",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "init": "node index.js init <projectName>",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cyber-tools-cli": "./index.js"
+  },
+  "keywords": [
+    "cyber-tools-cli",
+    "cyber",
+    "cli"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "clear": "^0.1.0",
+    "commander": "^5.0.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.1.0"
+  }
+}
